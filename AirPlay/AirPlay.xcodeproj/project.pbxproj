@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		21E0C5832C70D0E50080C0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5822C70D0E50080C0C9 /* AppDelegate.swift */; };
 		21E0C5852C70D0E50080C0C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5842C70D0E50080C0C9 /* SceneDelegate.swift */; };
-		21E0C5872C70D0E50080C0C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5862C70D0E50080C0C9 /* ViewController.swift */; };
+		21E0C5872C70D0E50080C0C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5862C70D0E50080C0C9 /* LoginViewController.swift */; };
 		21E0C58A2C70D0E50080C0C9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 21E0C5892C70D0E50080C0C9 /* Base */; };
 		21E0C58C2C70D0E80080C0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E0C58B2C70D0E80080C0C9 /* Assets.xcassets */; };
 		21E0C58F2C70D0E80080C0C9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 21E0C58E2C70D0E80080C0C9 /* Base */; };
+		21E0C5A62C70E3540080C0C9 /* IPDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5A52C70E3540080C0C9 /* IPDetailsModel.swift */; };
+		21E0C5A92C70E3AA0080C0C9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5A82C70E3AA0080C0C9 /* NetworkManager.swift */; };
+		21E0C5AD2C70E4000080C0C9 /* PreferencesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5AC2C70E4000080C0C9 /* PreferencesManager.swift */; };
+		21E0C5AF2C70E58B0080C0C9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5AE2C70E58B0080C0C9 /* Constants.swift */; };
+		21E0C5B22C70E7D80080C0C9 /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5B12C70E7D80080C0C9 /* CustomActivityIndicator.swift */; };
+		21E0C5B42C70E8690080C0C9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5B32C70E8690080C0C9 /* BaseViewController.swift */; };
+		21E0C5B62C7123050080C0C9 /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5B52C7123050080C0C9 /* NetworkCheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		21E0C57F2C70D0E50080C0C9 /* AirPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E0C5822C70D0E50080C0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21E0C5842C70D0E50080C0C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21E0C5862C70D0E50080C0C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21E0C5862C70D0E50080C0C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		21E0C5892C70D0E50080C0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21E0C58B2C70D0E80080C0C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21E0C58E2C70D0E80080C0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21E0C5902C70D0E80080C0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E0C5A52C70E3540080C0C9 /* IPDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPDetailsModel.swift; sourceTree = "<group>"; };
+		21E0C5A82C70E3AA0080C0C9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		21E0C5AC2C70E4000080C0C9 /* PreferencesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesManager.swift; sourceTree = "<group>"; };
+		21E0C5AE2C70E58B0080C0C9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		21E0C5B12C70E7D80080C0C9 /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
+		21E0C5B32C70E8690080C0C9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		21E0C5B52C7123050080C0C9 /* NetworkCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCheck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,166 @@
 		21E0C5812C70D0E50080C0C9 /* AirPlay */ = {
 			isa = PBXGroup;
 			children = (
-				21E0C5822C70D0E50080C0C9 /* AppDelegate.swift */,
-				21E0C5842C70D0E50080C0C9 /* SceneDelegate.swift */,
-				21E0C5862C70D0E50080C0C9 /* ViewController.swift */,
+				21E0C5962C70D20A0080C0C9 /* Application */,
+				21E0C59A2C70D2720080C0C9 /* Helpers */,
+				21E0C5972C70D2330080C0C9 /* Featuers */,
+				21E0C5B02C70E7980080C0C9 /* Components */,
 				21E0C5882C70D0E50080C0C9 /* Main.storyboard */,
 				21E0C58B2C70D0E80080C0C9 /* Assets.xcassets */,
 				21E0C58D2C70D0E80080C0C9 /* LaunchScreen.storyboard */,
 				21E0C5902C70D0E80080C0C9 /* Info.plist */,
 			);
 			path = AirPlay;
+			sourceTree = "<group>";
+		};
+		21E0C5962C70D20A0080C0C9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				21E0C5842C70D0E50080C0C9 /* SceneDelegate.swift */,
+				21E0C5822C70D0E50080C0C9 /* AppDelegate.swift */,
+				21E0C5B32C70E8690080C0C9 /* BaseViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		21E0C5972C70D2330080C0C9 /* Featuers */ = {
+			isa = PBXGroup;
+			children = (
+				21E0C5982C70D24F0080C0C9 /* Login */,
+				21E0C59D2C70E2950080C0C9 /* Home */,
+				21E0C5A12C70E2EB0080C0C9 /* Details */,
+			);
+			path = Featuers;
+			sourceTree = "<group>";
+		};
+		21E0C5982C70D24F0080C0C9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				21E0C5992C70D2580080C0C9 /* Model */,
+				21E0C59C2C70D2A40080C0C9 /* View */,
+				21E0C59B2C70D29A0080C0C9 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		21E0C5992C70D2580080C0C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21E0C59A2C70D2720080C0C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				21E0C5AB2C70E3DF0080C0C9 /* PreferanceManager */,
+				21E0C5A72C70E3840080C0C9 /* NetworkManager */,
+				21E0C5AE2C70E58B0080C0C9 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		21E0C59B2C70D29A0080C0C9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21E0C59C2C70D2A40080C0C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21E0C5862C70D0E50080C0C9 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21E0C59D2C70E2950080C0C9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				21E0C5A02C70E2D40080C0C9 /* Model */,
+				21E0C59F2C70E2C90080C0C9 /* View */,
+				21E0C59E2C70E2B80080C0C9 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		21E0C59E2C70E2B80080C0C9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21E0C59F2C70E2C90080C0C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21E0C5A02C70E2D40080C0C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21E0C5A12C70E2EB0080C0C9 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				21E0C5A42C70E3070080C0C9 /* Model */,
+				21E0C5A32C70E3020080C0C9 /* View */,
+				21E0C5A22C70E2FA0080C0C9 /* ViewModel */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		21E0C5A22C70E2FA0080C0C9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21E0C5A32C70E3020080C0C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21E0C5A42C70E3070080C0C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21E0C5A52C70E3540080C0C9 /* IPDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21E0C5A72C70E3840080C0C9 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				21E0C5A82C70E3AA0080C0C9 /* NetworkManager.swift */,
+				21E0C5B52C7123050080C0C9 /* NetworkCheck.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		21E0C5AB2C70E3DF0080C0C9 /* PreferanceManager */ = {
+			isa = PBXGroup;
+			children = (
+				21E0C5AC2C70E4000080C0C9 /* PreferencesManager.swift */,
+			);
+			path = PreferanceManager;
+			sourceTree = "<group>";
+		};
+		21E0C5B02C70E7980080C0C9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				21E0C5B12C70E7D80080C0C9 /* CustomActivityIndicator.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21E0C5872C70D0E50080C0C9 /* ViewController.swift in Sources */,
+				21E0C5AD2C70E4000080C0C9 /* PreferencesManager.swift in Sources */,
+				21E0C5B62C7123050080C0C9 /* NetworkCheck.swift in Sources */,
+				21E0C5872C70D0E50080C0C9 /* LoginViewController.swift in Sources */,
 				21E0C5832C70D0E50080C0C9 /* AppDelegate.swift in Sources */,
+				21E0C5A92C70E3AA0080C0C9 /* NetworkManager.swift in Sources */,
+				21E0C5AF2C70E58B0080C0C9 /* Constants.swift in Sources */,
+				21E0C5B42C70E8690080C0C9 /* BaseViewController.swift in Sources */,
+				21E0C5B22C70E7D80080C0C9 /* CustomActivityIndicator.swift in Sources */,
 				21E0C5852C70D0E50080C0C9 /* SceneDelegate.swift in Sources */,
+				21E0C5A62C70E3540080C0C9 /* IPDetailsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
