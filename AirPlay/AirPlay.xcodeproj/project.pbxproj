@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2112A1BB2C71300700D4C931 /* String+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112A1BA2C71300700D4C931 /* String+Extra.swift */; };
+		2112A1BD2C71A94300D4C931 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112A1BC2C71A94300D4C931 /* LoginViewModel.swift */; };
+		2112A1BF2C71B03600D4C931 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112A1BE2C71B03600D4C931 /* HomeViewController.swift */; };
+		2112A1C62C71CE1300D4C931 /* AirPlayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112A1C52C71CE1300D4C931 /* AirPlayService.swift */; };
+		2112A1C92C71D02B00D4C931 /* AirPlayDevice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2112A1C72C71D02B00D4C931 /* AirPlayDevice.xcdatamodeld */; };
+		2112A1CD2C71D56500D4C931 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112A1CB2C71D56500D4C931 /* DeviceTableViewCell.swift */; };
+		2112A1CE2C71D56500D4C931 /* DeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2112A1CC2C71D56500D4C931 /* DeviceTableViewCell.xib */; };
+		2112A1D02C71EC0600D4C931 /* IPDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112A1CF2C71EC0600D4C931 /* IPDetailViewController.swift */; };
+		2112A1D22C71FEBD00D4C931 /* IPDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112A1D12C71FEBD00D4C931 /* IPDetailViewModel.swift */; };
+		2112A1D42C72342800D4C931 /* UIViewController+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2112A1D32C72342800D4C931 /* UIViewController+Extra.swift */; };
+		211FEC792C724A2D00954CD0 /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 211FEC782C724A2D00954CD0 /* LoginManager.m */; };
 		21E0C5832C70D0E50080C0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5822C70D0E50080C0C9 /* AppDelegate.swift */; };
 		21E0C5852C70D0E50080C0C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5842C70D0E50080C0C9 /* SceneDelegate.swift */; };
 		21E0C5872C70D0E50080C0C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E0C5862C70D0E50080C0C9 /* LoginViewController.swift */; };
@@ -23,6 +34,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2112A1BA2C71300700D4C931 /* String+Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extra.swift"; sourceTree = "<group>"; };
+		2112A1BC2C71A94300D4C931 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2112A1BE2C71B03600D4C931 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2112A1C22C71B8BD00D4C931 /* AirPlay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirPlay-Bridging-Header.h"; sourceTree = "<group>"; };
+		2112A1C52C71CE1300D4C931 /* AirPlayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirPlayService.swift; sourceTree = "<group>"; };
+		2112A1C82C71D02B00D4C931 /* AirPlayDevice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirPlayDevice.xcdatamodel; sourceTree = "<group>"; };
+		2112A1CB2C71D56500D4C931 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		2112A1CC2C71D56500D4C931 /* DeviceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceTableViewCell.xib; sourceTree = "<group>"; };
+		2112A1CF2C71EC0600D4C931 /* IPDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPDetailViewController.swift; sourceTree = "<group>"; };
+		2112A1D12C71FEBD00D4C931 /* IPDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPDetailViewModel.swift; sourceTree = "<group>"; };
+		2112A1D32C72342800D4C931 /* UIViewController+Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extra.swift"; sourceTree = "<group>"; };
+		211FEC772C724A2D00954CD0 /* LoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginManager.h; sourceTree = "<group>"; };
+		211FEC782C724A2D00954CD0 /* LoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginManager.m; sourceTree = "<group>"; };
 		21E0C57F2C70D0E50080C0C9 /* AirPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E0C5822C70D0E50080C0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21E0C5842C70D0E50080C0C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +75,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2112A1B92C712FDB00D4C931 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2112A1BA2C71300700D4C931 /* String+Extra.swift */,
+				2112A1D32C72342800D4C931 /* UIViewController+Extra.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2112A1C02C71B86A00D4C931 /* LoginManager */ = {
+			isa = PBXGroup;
+			children = (
+				2112A1C22C71B8BD00D4C931 /* AirPlay-Bridging-Header.h */,
+				211FEC772C724A2D00954CD0 /* LoginManager.h */,
+				211FEC782C724A2D00954CD0 /* LoginManager.m */,
+			);
+			path = LoginManager;
+			sourceTree = "<group>";
+		};
+		2112A1CA2C71D54500D4C931 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2112A1CB2C71D56500D4C931 /* DeviceTableViewCell.swift */,
+				2112A1CC2C71D56500D4C931 /* DeviceTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		21E0C5762C70D0E50080C0C9 = {
 			isa = PBXGroup;
 			children = (
@@ -74,8 +126,10 @@
 				21E0C59A2C70D2720080C0C9 /* Helpers */,
 				21E0C5972C70D2330080C0C9 /* Featuers */,
 				21E0C5B02C70E7980080C0C9 /* Components */,
-				21E0C5882C70D0E50080C0C9 /* Main.storyboard */,
+				2112A1B92C712FDB00D4C931 /* Extension */,
 				21E0C58B2C70D0E80080C0C9 /* Assets.xcassets */,
+				21E0C5882C70D0E50080C0C9 /* Main.storyboard */,
+				2112A1C72C71D02B00D4C931 /* AirPlayDevice.xcdatamodeld */,
 				21E0C58D2C70D0E80080C0C9 /* LaunchScreen.storyboard */,
 				21E0C5902C70D0E80080C0C9 /* Info.plist */,
 			);
@@ -122,9 +176,11 @@
 		21E0C59A2C70D2720080C0C9 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				2112A1C02C71B86A00D4C931 /* LoginManager */,
 				21E0C5AB2C70E3DF0080C0C9 /* PreferanceManager */,
 				21E0C5A72C70E3840080C0C9 /* NetworkManager */,
 				21E0C5AE2C70E58B0080C0C9 /* Constants.swift */,
+				2112A1C52C71CE1300D4C931 /* AirPlayService.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -132,6 +188,7 @@
 		21E0C59B2C70D29A0080C0C9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2112A1BC2C71A94300D4C931 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -164,6 +221,8 @@
 		21E0C59F2C70E2C90080C0C9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2112A1CA2C71D54500D4C931 /* Cell */,
+				2112A1BE2C71B03600D4C931 /* HomeViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -188,6 +247,7 @@
 		21E0C5A22C70E2FA0080C0C9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2112A1D12C71FEBD00D4C931 /* IPDetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -195,6 +255,7 @@
 		21E0C5A32C70E3020080C0C9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2112A1CF2C71EC0600D4C931 /* IPDetailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -264,6 +325,7 @@
 				TargetAttributes = {
 					21E0C57E2C70D0E50080C0C9 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -293,6 +355,7 @@
 				21E0C58C2C70D0E80080C0C9 /* Assets.xcassets in Resources */,
 				21E0C58F2C70D0E80080C0C9 /* Base in Resources */,
 				21E0C58A2C70D0E50080C0C9 /* Base in Resources */,
+				2112A1CE2C71D56500D4C931 /* DeviceTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,13 +368,23 @@
 			files = (
 				21E0C5AD2C70E4000080C0C9 /* PreferencesManager.swift in Sources */,
 				21E0C5B62C7123050080C0C9 /* NetworkCheck.swift in Sources */,
+				2112A1D22C71FEBD00D4C931 /* IPDetailViewModel.swift in Sources */,
 				21E0C5872C70D0E50080C0C9 /* LoginViewController.swift in Sources */,
 				21E0C5832C70D0E50080C0C9 /* AppDelegate.swift in Sources */,
+				2112A1C92C71D02B00D4C931 /* AirPlayDevice.xcdatamodeld in Sources */,
+				211FEC792C724A2D00954CD0 /* LoginManager.m in Sources */,
 				21E0C5A92C70E3AA0080C0C9 /* NetworkManager.swift in Sources */,
+				2112A1D42C72342800D4C931 /* UIViewController+Extra.swift in Sources */,
+				2112A1C62C71CE1300D4C931 /* AirPlayService.swift in Sources */,
 				21E0C5AF2C70E58B0080C0C9 /* Constants.swift in Sources */,
 				21E0C5B42C70E8690080C0C9 /* BaseViewController.swift in Sources */,
 				21E0C5B22C70E7D80080C0C9 /* CustomActivityIndicator.swift in Sources */,
+				2112A1CD2C71D56500D4C931 /* DeviceTableViewCell.swift in Sources */,
+				2112A1BD2C71A94300D4C931 /* LoginViewModel.swift in Sources */,
+				2112A1D02C71EC0600D4C931 /* IPDetailViewController.swift in Sources */,
 				21E0C5852C70D0E50080C0C9 /* SceneDelegate.swift in Sources */,
+				2112A1BB2C71300700D4C931 /* String+Extra.swift in Sources */,
+				2112A1BF2C71B03600D4C931 /* HomeViewController.swift in Sources */,
 				21E0C5A62C70E3540080C0C9 /* IPDetailsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +535,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -479,6 +553,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aj.airplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AirPlay/Helpers/LoginManager/AirPlay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -489,6 +565,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -506,6 +583,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aj.airplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AirPlay/Helpers/LoginManager/AirPlay-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -533,6 +611,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2112A1C72C71D02B00D4C931 /* AirPlayDevice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2112A1C82C71D02B00D4C931 /* AirPlayDevice.xcdatamodel */,
+			);
+			currentVersion = 2112A1C82C71D02B00D4C931 /* AirPlayDevice.xcdatamodel */;
+			name = AirPlayDevice.xcdatamodeld;
+			path = /Users/aj/Documents/learn/AirPlay/AirPlay/AirPlay/AirPlayDevice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 21E0C5772C70D0E50080C0C9 /* Project object */;
 }

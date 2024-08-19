@@ -16,3 +16,10 @@ enum APIEndPoints {
 enum APIConstants {
     static let geo = "/geo"
 }
+
+enum StringConstants {
+    static let ip = "IP: "
+    static let hostName = "Host Name: "
+    static let region = "Region: "
+    static let company = "Company: "
+}

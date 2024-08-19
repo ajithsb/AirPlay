@@ -42,7 +42,7 @@ import Foundation
         return defaults.bool(forKey: UserDefaultsKeys.isLoggedIn)
     }
     
-    func clearAllPreferences() {
+    @objc func clearAllPreferences() {
         defaults.removeObject(forKey: UserDefaultsKeys.token)
     }
 }

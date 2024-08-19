@@ -8,18 +8,19 @@
 import Foundation
 import Network
 
-class NetworkCheck {
+@objc class NetworkCheck: NSObject {
     
-    static let shared = NetworkCheck()
+    @objc static let shared = NetworkCheck()
     private let monitor: NWPathMonitor
     private let queue = DispatchQueue.global(qos: .background)
     
-    private init() {
+    private override init() {
         monitor = NWPathMonitor()
+        super.init()
         setupPathUpdateHandler()
     }
     
-    var isConnected: Bool {
+    @objc var isConnected: Bool {
         return monitor.currentPath.status == .satisfied
     }
     
@@ -32,11 +33,11 @@ class NetworkCheck {
         monitor.start(queue: queue)
     }
     
-    func startMonitoring() {
+    @objc func startMonitoring() {
         monitor.start(queue: queue)
     }
     
-    func stopMonitoring() {
+    @objc func stopMonitoring() {
         monitor.cancel()
     }
 }
